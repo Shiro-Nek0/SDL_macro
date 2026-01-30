@@ -1,0 +1,10 @@
+build/
+
+.clang-format
+.vscode/
+.cache/
+compile_commands.json
+
+android-project/app/build/
+android-project/app/.cxx
+android-project/.gradle
