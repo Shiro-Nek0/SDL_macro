@@ -7,6 +7,8 @@
 #include <SDL_mixer.h>
 #include <random>
 
+//TODO: trigger fullscreen for android build so in old andriod version it hides status bar and buttons
+//TODO: set appid in android settings from cmake file
 int buttonSpacing = 5, buttonRadius = 5, GRID_COLS = 15, GRID_ROWS = 6;
 Vector2 windowSize = {1280, 720}, blockSize = {1, 1};
 bool running = true;
